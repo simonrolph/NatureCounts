@@ -1,0 +1,51 @@
+<style type="text/css">h1 {font-weight: bold;}
+h2 {font-weight: bold;}
+h3 {font-weight: bold;}
+p {font-size: 16px;}
+p {line-height:26px;
+</style>
+<p>Looking for the main Sheffield and Rotherham Wildlife Trust website? You can find it here: <a href="https://www.wildsheffield.com">www.wildsheffield.com</a></p>
+
+<p>Need help using Nature Counts? Visit the Nature Counts help pages: <a href="https://sites.google.com/wildsheffield.com/nature-counts/home">https://sites.google.com/wildsheffield.com/nature-counts/home</a></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>Nature Counts is a biological recording platform for a number of Wildlife Trusts. You can find their Nature Counts recording pages here:</p>
+
+<ul>
+	<li>Sheffield and Rotherham Wildlife Trust - <a href="record.wildsheffield.com">record.wildsheffield.com</a></li>
+	<li>Yorkshire Wildlife Trust - <a href="record.ywt.org.uk">record.ywt.org.uk</a></li>
+	<li>Manx Wildlife Trust - <a href="record.mwt.im">record.mwt.im</a></li>
+	<li>Northumberland Wildlife Trust - <a href="record.nwt.org.uk">record.nwt.org.uk</a></li>
+	<li>Herefordshire Wildlife Trust - <a href="record.herefordshirewt.org">record.herefordshirewt.org</a></li>
+	<li>Nottinghamshire Wildlife Trust - <a href="record.nottinghamshirewildlife.org">record.nottinghamshirewildlife.org</a></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<h3 style="text-align:center;">Nature Counts is supported by</h3>
+
+<div class="row">
+<p>&nbsp;</p>
+
+<div class="col-md-6"><img alt="heritage lottery fund logo" class="img-responsive" data-align="center" data-entity-type="file" data-entity-uuid="78ceab19-0c00-4784-b948-ff64cc767022" src="/sites/default/files/inline-images/hf-logo-white.png" />
+<p style="text-align:center;"><a href="https://www.heritagefund.org.uk/">The Heritage Lottery Fund</a></p>
+</div>
+
+<div class="col-md-6"><img alt="The Wildlife Trusts Logo" data-align="center" data-entity-type="file" data-entity-uuid="8723d2e7-8fcf-4f37-950a-05163ece9b3e" src="/sites/default/files/inline-images/The-Wildlife-Trusts_0.png" />
+<p style="text-align:center;"><a href="https://www.wildlifetrusts.org/">The Wildlife Trusts Strategic Development Fund</a></p>
+</div>
+</div>
+
+<p>&nbsp;</p>
+
+<hr />
+<div>
+<p>© 2021&nbsp;<a href="https://www.wildsheffield.com/"><b>Sheffield &amp; Rotherham Wildlife Trust</b></a></p>
+
+<p>Registered in England Number 2287928. Registered Charity Number 700638.</p>
+</div>
