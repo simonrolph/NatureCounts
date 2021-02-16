@@ -1,0 +1,82 @@
+<input type="hidden" name="sample:licence_id" value="2" />
+
+[sensitivity scratchpad]
+@scratchpad_list_id=2020
+
+=About you=
+?You are currently not logged in. Did you know that you can create an Nature Counts account which allows you keep track and edit your records? <a href="/user/login">Log in</a> or <a href="/user/register">create an account</a>. <br>These records are being submitted to <a href="http://www.wildsheffield.com/" target="_top"><strong>Sheffield & Rotherham Wildlife Trust</strong></a>. Please make sure you read the <a href="/terms-conditions">Terms and conditions</a> before proceeding.?
+[*]
+@smpAttr:36|helpText=Please provide your first name
+@smpAttr:36|class=control-width-5
+@smpAttr:58|helpText=Please provide your surname
+@smpAttr:58|class=control-width-5
+@smpAttr:8|helpText=Please provide your email. This will only be used to contact you if we require further information to verify the record.
+@smpAttr:8|class=control-width-5
+
+<fieldset id="donorfy-link"> 
+  <legend>Marketing permissions</legend>
+  <p>If you would like to receive correspondence from us or control your existing communication preferences you can do so by entering your email address in the box below and clicking Send Link.</p>
+
+  <iframe style="width: 100%; height: 150px;" width="300" height="150" frameborder="0" src="https://app.donorfy.com/Services/RequestPreferencesLink/47583HXUJ4" ></iframe>
+</fieldset>
+
+=Species=
+
+[date]
+@class=control-width-4
+@lockable=true
+
+[*]
+@smpAttr:127|class=control-width-5
+@smpAttr:127|default={profile_last_name}, {profile_first_name}
+@smpAttr:127|helpText=Enter the recorder's name, if different.
+@smpAttr:127|lockable=true
+?Please enter all the species you saw at one site on a single day and any other information about them.  Then move to the <strong>Where was it?</strong> tab before submitting your records.?
+
+[species]
+@resizeWidth=1500
+@resizeHeight=1500
+@occAttr:18|default={profile_last_name}, {profile_first_name}
+@helpText=Use * as a wildcard when searching for species names. If you have sensitive records to input please use the <a href="enter-casual-record" target="_blank">Enter a casual record</a> form.
+@responsive=true
+@responsiveOpts={"breakpoints": {"ph": 480, "tp": 768, "tl": 1024}}
+@responsiveCols={"attr54": {"ph": true}, "attr93": {}, "attr105": {"ph": true, "tp": true}, "attr106": {"ph": true, "tp": true},  "attr18": {"ph": true, "tp": true}, "comment": {"ph": true, "tp": true, "tl": true},"media": {"ph": true, "tp": true}}
+
+[species attributes]
+
+=Place=
+
+[location autocomplete]
+@useLocationName=true
+@lockable=true
+@helpText=Provide the name of the site, ideally using one that is recognisable from an OS map. Do not enter a postal address as the information you provide will be visible to others. If you have saved some of your own sites then they will appear for selection here when you type the first few characters of the site name.
+@personSiteAttrId=1
+@validation=["required"]
+@class=control-width-4
+@report=projects/wildsheffield/my_sites_lookup
+@autocompleteIfLoggedOut=true
+
+[place search]
+@helpText=Search for a nearby named place then click on the map to set the exact location, or type the grid reference below.
+
+[spatial reference]
+@lockable=true
+@class=control-width-4
+@label=Enter a spatial reference
+
+<div id="map-help" style="display: none" class="ui-state-highlight ui-corner-all page-notice"></div>
+
+[*]
+@smpAttr:209|lookUpListCtrl=hierarchical_select
+@smpAttr:209|label=Habitat
+
+[sample comment]
+
+|
+
+[map]
+@helpDiv=map-help
+@gridRefHint=true
+@helpToPickPrecisionMin=100
+@helpToPickPrecisionMax=10
+@helpToPickPrecisionSwitchAt=100
